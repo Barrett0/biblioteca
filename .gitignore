@@ -1,0 +1,26 @@
+
+# Java compilado
+*.class
+
+# Arquivos gerados pelo Maven
+target/
+
+# Arquivos de configuração do Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# Banco H2 local, caso seja criado em arquivo
+*.mv.db
+*.trace.db
+
+# Configurações locais e segredos
+.env
+.env.*
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
